@@ -1,0 +1,26 @@
+// Product catalog with USD pricing. Kept out of the components so the UI never
+// hardcodes the list — swap this file (or later a real API) freely.
+export const products = [
+  { id: 1, name: 'Redmi Note 13 Pro', category: 'Phone', price: 299, brand: 'Xiaomi', emoji: '📱', rating: 4.4, color: '#ff6b6b' },
+  { id: 2, name: 'realme 12 Pro+', category: 'Phone', price: 359, brand: 'realme', emoji: '📱', rating: 4.3, color: '#f9a825' },
+  { id: 3, name: 'iQOO Neo 9 Pro', category: 'Phone', price: 429, brand: 'iQOO', emoji: '📱', rating: 4.5, color: '#4dabf7' },
+  { id: 4, name: 'Samsung Galaxy M35', category: 'Phone', price: 229, brand: 'Samsung', emoji: '📱', rating: 4.2, color: '#7048e8' },
+  { id: 5, name: 'iPhone 15', category: 'Phone', price: 799, brand: 'Apple', emoji: '📱', rating: 4.7, color: '#495057' },
+  { id: 6, name: 'Google Pixel 8a', category: 'Phone', price: 499, brand: 'Google', emoji: '📱', rating: 4.5, color: '#20c997' },
+  { id: 7, name: 'OnePlus 12R', category: 'Phone', price: 549, brand: 'OnePlus', emoji: '📱', rating: 4.4, color: '#e8590c' },
+  { id: 8, name: 'HP Pavilion 14', category: 'Laptop', price: 749, brand: 'HP', emoji: '💻', rating: 4.3, color: '#0ca678' },
+  { id: 9, name: 'ASUS Vivobook 15', category: 'Laptop', price: 579, brand: 'ASUS', emoji: '💻', rating: 4.1, color: '#1098ad' },
+  { id: 10, name: 'Lenovo IdeaPad Slim 5', category: 'Laptop', price: 669, brand: 'Lenovo', emoji: '💻', rating: 4.4, color: '#e64980' },
+  { id: 11, name: 'MacBook Air M3', category: 'Laptop', price: 1099, brand: 'Apple', emoji: '💻', rating: 4.8, color: '#868e96' },
+  { id: 12, name: 'Dell Inspiron 15', category: 'Laptop', price: 629, brand: 'Dell', emoji: '💻', rating: 4.2, color: '#364fc7' },
+  { id: 13, name: 'boAt Airdopes 161', category: 'Audio', price: 19, brand: 'boAt', emoji: '🎧', rating: 4.0, color: '#fa5252' },
+  { id: 14, name: 'Sony WH-CH520', category: 'Audio', price: 49, brand: 'Sony', emoji: '🎧', rating: 4.6, color: '#5c7cfa' },
+  { id: 15, name: 'Apple AirPods Pro 2', category: 'Audio', price: 249, brand: 'Apple', emoji: '🎧', rating: 4.7, color: '#adb5bd' },
+  { id: 16, name: 'JBL Tune 770NC', category: 'Audio', price: 99, brand: 'JBL', emoji: '🎧', rating: 4.5, color: '#f06595' },
+  { id: 17, name: 'Noise ColorFit Pro 5', category: 'Wearable', price: 42, brand: 'Noise', emoji: '⌚', rating: 4.1, color: '#12b886' },
+  { id: 18, name: 'Apple Watch SE', category: 'Wearable', price: 249, brand: 'Apple', emoji: '⌚', rating: 4.7, color: '#74c0fc' },
+  { id: 19, name: 'Samsung Galaxy Watch 6', category: 'Wearable', price: 299, brand: 'Samsung', emoji: '⌚', rating: 4.5, color: '#9775fa' },
+  { id: 20, name: 'Mi Smart TV 5A 43"', category: 'TV', price: 319, brand: 'Xiaomi', emoji: '📺', rating: 4.3, color: '#f76707' },
+  { id: 21, name: 'LG OLED C3 48"', category: 'TV', price: 1199, brand: 'LG', emoji: '📺', rating: 4.8, color: '#d6336c' },
+  { id: 22, name: 'Sony Bravia X75L 50"', category: 'TV', price: 699, brand: 'Sony', emoji: '📺', rating: 4.4, color: '#1c7ed6' },
+];
